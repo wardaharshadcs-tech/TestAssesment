@@ -1,0 +1,48 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - link "permission logo" [ref=e6] [cursor=pointer]:
+      - /url: /login
+      - img "permission logo" [ref=e7] [cursor=pointer]
+    - generic [ref=e10]:
+      - img "Permission Logo" [ref=e11]
+      - heading "Log in to your account" [level=2] [ref=e12]
+      - heading "Welcome back! Please enter your details." [level=6] [ref=e13]
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]: Email
+          - textbox "Email" [ref=e18]: Vivien75@gmail.com
+        - generic [ref=e20]:
+          - generic [ref=e21]: Password
+          - generic [ref=e22]:
+            - textbox "Password" [ref=e23]: V71P5s5Bu6iO
+            - img [ref=e25]
+      - link "Forgot password?" [ref=e31] [cursor=pointer]:
+        - /url: /reset-password
+      - iframe [ref=e34]:
+        - generic [ref=f1e2]:
+          - generic [ref=f1e5]:
+            - link "Privacy" [ref=f1e6] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/privacy/
+            - generic [ref=f1e7]: "-"
+            - link "Terms" [ref=f1e8] [cursor=pointer]:
+              - /url: https://www.google.com/intl/en/policies/terms/
+          - generic [ref=f1e9]:
+            - generic [ref=f1e10]:
+              - text: protected by
+              - strong [ref=f1e11]: reCAPTCHA
+            - generic [ref=f1e13]: "-"
+      - button "Log in" [ref=e35] [cursor=pointer]:
+        - generic [ref=e36] [cursor=pointer]: Log in
+      - generic [ref=e37]:
+        - paragraph [ref=e38]:
+          - text: Don’t have an account?
+          - link "Sign up and earn" [ref=e39] [cursor=pointer]:
+            - /url: /register?redirect_url=/ai
+        - generic [ref=e41]: + ASK
+  - generic [ref=e42] [cursor=pointer]:
+    - button "Manage Settings" [ref=e44] [cursor=pointer]
+    - text: Manage Settings
+```

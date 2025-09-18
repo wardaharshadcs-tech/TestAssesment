@@ -1,0 +1,114 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e8]:
+      - link "Permission" [ref=e9] [cursor=pointer]:
+        - /url: /ai
+        - img "Permission" [ref=e10] [cursor=pointer]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Permission Agent" [ref=e14] [cursor=pointer]:
+            - /url: /ai
+            - generic [ref=e15] [cursor=pointer]:
+              - img [ref=e17] [cursor=pointer]
+              - text: Permission Agent
+        - listitem [ref=e20]:
+          - link "Earn Marketplace" [ref=e21] [cursor=pointer]:
+            - /url: /earn
+            - generic [ref=e22] [cursor=pointer]:
+              - img [ref=e24] [cursor=pointer]
+              - text: Earn Marketplace
+        - listitem [ref=e28]:
+          - link "Redeem" [ref=e29] [cursor=pointer]:
+            - /url: /redeem/offers
+            - generic [ref=e30] [cursor=pointer]:
+              - img [ref=e32] [cursor=pointer]
+              - text: Redeem
+        - listitem [ref=e34]:
+          - link "Referrals" [ref=e35] [cursor=pointer]:
+            - /url: /referrals
+            - generic [ref=e36] [cursor=pointer]:
+              - img [ref=e38] [cursor=pointer]
+              - text: Referrals
+        - listitem [ref=e40]:
+          - link "Wallet Coin Icon 100" [ref=e41] [cursor=pointer]:
+            - /url: /wallet
+            - generic [ref=e42] [cursor=pointer]:
+              - img [ref=e44] [cursor=pointer]
+              - text: Wallet
+            - generic [ref=e47] [cursor=pointer]:
+              - img "Coin Icon" [ref=e48] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: "100"
+        - listitem [ref=e50]:
+          - heading "Account settings" [level=3] [ref=e53]:
+            - button "Account settings" [ref=e54] [cursor=pointer]:
+              - img [ref=e56] [cursor=pointer]
+              - generic [ref=e59] [cursor=pointer]: Account settings
+              - img [ref=e60] [cursor=pointer]
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - heading "AI" [level=3] [ref=e67]
+          - button "search" [ref=e69] [cursor=pointer]:
+            - img "search" [ref=e70] [cursor=pointer]
+        - generic [ref=e71]:
+          - button [ref=e72] [cursor=pointer]:
+            - img [ref=e73] [cursor=pointer]
+          - img [ref=e76]
+          - link "Coin Icon 100" [ref=e77] [cursor=pointer]:
+            - /url: /wallet
+            - img "Coin Icon" [ref=e78] [cursor=pointer]
+            - generic [ref=e79] [cursor=pointer]: "100"
+            - img [ref=e80] [cursor=pointer]
+          - img [ref=e82]
+          - button "WA Wardah Arshad" [ref=e85] [cursor=pointer]:
+            - generic [ref=e86] [cursor=pointer]:
+              - generic [ref=e89] [cursor=pointer]: WA
+              - generic [ref=e90] [cursor=pointer]: Wardah Arshad
+            - img [ref=e91] [cursor=pointer]
+      - generic [ref=e93]:
+        - generic [ref=e96]:
+          - generic [ref=e98]:
+            - img [ref=e101]
+            - generic [ref=e102]:
+              - heading "Permission Agent" [level=3] [ref=e103]
+              - paragraph [ref=e104]: Here to help you Earn More
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - paragraph [ref=e113]:
+                - text: 👋 Hi there! I'm here to help you start earning money while you browse the web. Ready to learn how you can earn
+                - strong [ref=e114]: Rewards
+                - text: just from your normal browsing habits? Great! Here's how
+                - strong [ref=e115]: Permission
+                - text: "works:"
+              - list [ref=e116]:
+                - listitem [ref=e117]: Install our browser extension and earn coins automatically as you browse - no extra work required!
+              - generic [ref=e118]:
+                - button "Download Extension" [ref=e119] [cursor=pointer]
+                - button "Learn More" [ref=e121] [cursor=pointer]
+                - button "Maybe Later" [ref=e122] [cursor=pointer]
+            - generic [ref=e124]: 04:49 AM
+          - generic [ref=e126]:
+            - textbox "Type your message..." [active] [ref=e127]
+            - generic [ref=e128]:
+              - button [disabled]:
+                - img
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - text: Copyright © 2025 Permission.io | Permission ® is a registered trademark of Permission.io
+            - generic [ref=e131]: "|"
+          - generic [ref=e132]:
+            - link "Permission Home |" [ref=e133] [cursor=pointer]:
+              - /url: https://www.permission.io
+            - link "Privacy Policy |" [ref=e134] [cursor=pointer]:
+              - /url: https://www.permission.io/privacy-policy
+            - link "Terms of Use |" [ref=e135] [cursor=pointer]:
+              - /url: https://www.permission.io/terms-of-use
+            - link "Support" [ref=e136] [cursor=pointer]:
+              - /url: https://permission.deskpro.com
+  - generic [ref=e137] [cursor=pointer]:
+    - button "Manage Settings" [ref=e139] [cursor=pointer]
+    - text: Manage Settings
+```
